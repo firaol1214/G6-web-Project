@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: blue;
+}
+
+.direction {
+    display: flex;
+    background-color: bisque;
+    width: 800px;
+}
