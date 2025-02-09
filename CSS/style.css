@@ -34,10 +34,10 @@ body{
   }
   .header-wrapper .header-links-wrapper ul li a {
     text-decoration: none;
-    color: #d88282;
+    color: white;
   }
   .header-wrapper .header-links-wrapper ul li a:hover{
-    color: #cbdced;
+    color: #4CAF50;
   }
   .header-wrapper ul {
     list-style: none;
@@ -73,46 +73,69 @@ body{
   padding: 18px 0;
   color: yellow;
 }
-.description-wrapper :hover{
-  background-color: #cbdced;
-  color: #050404;
-}
 
 /* footer styling */
-.footer-wrapper {
-  background-color: #8fbcd6;
-  color: #f5f5f7;
-  font-size: 1.25em;
-  justify-content: space-between;
-  padding-top: 50px;
-}
-.outer-wrapper{
-  display: flex;
-}
-.footer-wrapper ul {
-  list-style: none;
-  padding-bottom: 25px;
-}
-h3{
-  text-align: center;
-}
-.footer-wrapper ul li {
-  padding: 3px 200px;
-  font-size: 0.8em;
-}
-.outer-wrapper ul li a {
-  text-decoration: none;
-  color: #21215d;
-}
-.outer-wrapper :hover {
-  text-decoration: underline;
+.footer {
+  background-color: black;
   color: white;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
 }
-.copyright{
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+
+.footer-column h4 {
+  color: #4CAF50;
+  margin-bottom: 25px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #4CAF50;
+  font-size: 1.3em;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 12px;
+}
+
+.footer-links a {
+  color: #cccccc;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #4CAF50;
+  padding-left: 5px;
+}
+
+.footer-bottom {
   text-align: center;
+  padding-top: 40px;
+  margin-top: 40px;
+  border-top: 1px solid #444444;
 }
 
  /* location styling*/
+ .location-wrapper{
+  background-color: #cbdced;
+ }
  h2{
   text-align: center;
   font-size: 2em;
@@ -131,9 +154,6 @@ h3{
   font-weight: 600;
   font-size: 3.5rem;
  }
- /* .images :hover{
-  color: #2109f9;
- } */
 .student{
   background-image: url("../Image/entrance.jpg");
   height: 50px;
@@ -149,3 +169,21 @@ h3{
   color: #2109f9;
   background-color: #cbdced;
 }
+.pragraph{
+  padding: 1rem 3rem;
+  margin-bottom: 10px;
+}
+ 
+/* menu styling */
+
+
+
+
+
+/* About us */
+
+
+
+
+
+/* offers */
