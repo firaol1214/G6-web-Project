@@ -140,7 +140,68 @@
 
 <!-- About us -->
 <p>We are committed to offering fresh, budget-friendly meals while prioritizing sustainability and quality. At Arsi university cafe, every meal is crafted with care to ensure a fulfilling and enjoyable dining experience.</p>
+<div class="container">
+        <div class="image-section"></div>
+        <div class="form-section">
+            <div class="form-container">
+                <!-- Login Form -->
+                <div class="form-box active" id="loginForm">
+                    <h2>Login</h2>
+                    <form id="login">
+                        <div class="input-group">
+                            <input type="email" id="loginEmail" placeholder="Email" required>
+                            <div class="error" id="loginEmailError"></div>
+                        </div>
+                        <div class="input-group">
+                            <input type="password" id="loginPassword" placeholder="Password" required>
+                            <div class="error" id="loginPasswordError"></div>
+                        </div>
+                        <button type="submit">Login</button>
+                    </form>
+                    <div class="toggle-form">
+                        Don't have an account? <a onclick="showRegister()">Register here</a>
+                    </div>
+                </div>
 
+                <!-- Registration Form -->
+                <div class="form-box" id="registerForm">
+                    <h2>Register</h2>
+                    <form id="register">
+                        <div class="input-group">
+                            <input type="text" id="fullName" placeholder="Full Name" required>
+                            <div class="error" id="nameError"></div>
+                        </div><div class="input-group">
+                            <input type="email" id="registerEmail" placeholder="Email" required>
+                            <div class="error" id="registerEmailError"></div>
+                        </div>
+                        <div class="input-group">
+                            <input type="password" id="registerPassword" placeholder="Password" required>
+                            <div class="error" id="registerPasswordError"></div>
+                        </div>
+                        <div class="input-group">
+                            <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+                            <div class="error" id="confirmPasswordError"></div>
+                        </div>
+                        <div class="input-group">
+                            <select id="department" required>
+                                <option value="">Select Department</option>
+                                <option value="Computer Science">Computer Science</option>
+                                <option value="Medicine">Medicine</option>
+                                <option value="Law">Law</option>
+                                <option value="Management">Management</option>
+                                <option value="Other">Other</option>
+                            </select>
+                            <div class="error" id="departmentError"></div>
+                        </div>
+                        <button type="submit">Register</button>
+                    </form>
+                    <div class="toggle-form">
+                        Already have an account? <a onclick="showLogin()">Login here</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 <!-- Footer page -->
 <footer class="footer"  id="Contact-Us">
