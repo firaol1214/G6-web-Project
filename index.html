@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -52,60 +51,69 @@
 
 <!-- menu teble -->
 <section class="menu"   id="menu">
-    <table border="2">
-        <caption><strong>THIS IS THE MENU OF 7 DAYS OF THE WEEK</strong> </caption>
-        <thead>
-            <tr>
-                <th>Days</th>
-                <th>Breakfast</th>
-                <th>Lunch</th>
-                <th>Dinner</th>
-            </tr>
-        </thead>
-        <tbody>
-            <td> Monday</td>
-            <td> Firfir+Bread+Tea</td>
-            <td>Misra weta/shero+ Enjera/Bread </td>
-            <td> Dinche weta/shero+ Enjera/bread</td>
-            </tr>
-            <tr>
-                <td>Tuesday</td>
-                <td>Firfir+Bread+Tea</td>
-                <td>kika weta/shero+ Enjera/Bread</td>
-                <td>Misraweta/shero+ Enjera/Bread </td>
-            </tr>
-            <tr>
-                <td>Wendsday</td>
-                <td>Macoroni/Firfir+Bread+Tea</td>
-                <td>Vegatable+shero+ Enjera/Bread</td>
-                <td>Misraweta/shero+ Enjera/Bread </td>
-            </tr>
-            <tr>
-                <td>Thursday</td>
-                <td>Rice+Bread+Tea</td>
-                <td>Therefore+ Enjera/Bread</td>
-                <td>Dinche weta/shero+ Enjera/Bread </td>
-            </tr>
-            <tr>
-                <td>Friday</td>
-                <td>Firfir+Bread+Tea</td>
-                <td>Vegatable+shero+ Enjera/Bread</td>
-                <td>kika weta/shero+ Enjera/Bread </td>
-            </tr>
-            <tr>
-                <td>Saturday</td>
-                <td>Rice+Bread+Tea</td>
-                <td>Vegatable+shero+ Enjera/Bread</td>
-                <td>Misraweta/shero+ Enjera/Bread </td>
-            </tr>
-            <tr>
-                <td>Sunday</td>
-                <td>Firfir+Bread+Tea</td>
-                <td>Misraweta/shero+ Enjera/Bread</td>
-                <td>kika weta/shero+ Enjera/Bread </td>
-            </tr>
-        </tbody>
-    </table>
+  <caption><h2><strong>This Is The Menu Of Arsi University Students Weekly Menus Of The Week!!</strong> </h2></caption>
+  <table border="2">
+   <tr>
+   <th>Days</th>
+   <th>Breakfast</th>
+   <th>Lunch</th>
+   <th>Dinner</th>
+   
+ </tr>
+
+ <tbody>
+   <td> Monday</td>
+   <td> Firfir+Bread+Tea</td>
+   <td>Misri weti/shero+ Enjera/Bread </td>
+   <td> Denich weti/shero+ Enjera/bread</td>
+   
+   
+ </tr>
+ <tr>
+   <td>Tuesday</td>
+   <td>Firfir+Bread+Tea</td>
+   <td>Therefore weti/shero+ Enjera/Bread</td>
+   <td>Misri weti/shero+ Enjera/Bread </td>
+   
+ </tr>
+ <tr>
+   <td>Wendsday</td>
+   <td>Mecoroni /Firfir+Bread+Tea</td>
+   <td>Vegatable+shero+ Enjera/Bread</td>
+   <td>Kiki weti/shero+ Enjera/Bread </td>
+   
+ </tr>
+ <tr>
+   <td>Thursday</td>
+   <td>Rice+Bread+Tea</td>
+   <td>Denich+ Enjera/Bread</td>
+   <td>Misri weti/shero+ Enjera/Bread </td>
+ </tr>
+ <tr>
+   <td>Friday</td>
+   <td>Firfir+Bread+Tea</td>
+   <td>Vegatable+shero+ Enjera/Bread</td>
+   <td>Denich weti/shero+ Enjera/Bread </td>
+   
+ </tr>
+ <tr>
+   <td>Saturday</td>
+   <td>Rice+Bread+Tea</td>
+   <td>Therefore/shero+ Enjera/Bread</td>
+   <td>Misri weti/shero+ Enjera/Bread </td>
+   
+ </tr>
+ <tr>
+   <td>Sunday</td>
+   <td>Macaroni+Bread+Tea</td>
+   <td>Misri weti/shero+ Enjera/Bread</td>
+   <td>kiki weti/shero+ Enjera/Bread </td>
+   
+ </tr>
+ 
+</tbody>
+
+  </table>
 </section>
 
 
@@ -140,7 +148,68 @@
 
 <!-- About us -->
 <p>We are committed to offering fresh, budget-friendly meals while prioritizing sustainability and quality. At Arsi university cafe, every meal is crafted with care to ensure a fulfilling and enjoyable dining experience.</p>
+<div class="container">
+        <div class="image-section"></div>
+        <div class="form-section">
+            <div class="form-container">
+                <!-- Login Form -->
+                <div class="form-box active" id="loginForm">
+                    <h2>Login</h2>
+                    <form id="login">
+                        <div class="input-group">
+                            <input type="email" id="loginEmail" placeholder="Email" required>
+                            <div class="error" id="loginEmailError"></div>
+                        </div>
+                        <div class="input-group">
+                            <input type="password" id="loginPassword" placeholder="Password" required>
+                            <div class="error" id="loginPasswordError"></div>
+                        </div>
+                        <button type="submit">Login</button>
+                    </form>
+                    <div class="toggle-form">
+                        Don't have an account? <a onclick="showRegister()">Register here</a>
+                    </div>
+                </div>
 
+                <!-- Registration Form -->
+                <div class="form-box" id="registerForm">
+                    <h2>Register</h2>
+                    <form id="register">
+                        <div class="input-group">
+                            <input type="text" id="fullName" placeholder="Full Name" required>
+                            <div class="error" id="nameError"></div>
+                        </div><div class="input-group">
+                            <input type="email" id="registerEmail" placeholder="Email" required>
+                            <div class="error" id="registerEmailError"></div>
+                        </div>
+                        <div class="input-group">
+                            <input type="password" id="registerPassword" placeholder="Password" required>
+                            <div class="error" id="registerPasswordError"></div>
+                        </div>
+                        <div class="input-group">
+                            <input type="password" id="confirmPassword" placeholder="Confirm Password" required>
+                            <div class="error" id="confirmPasswordError"></div>
+                        </div>
+                        <div class="input-group">
+                            <select id="department" required>
+                                <option value="">Select Department</option>
+                                <option value="Computer Science">Computer Science</option>
+                                <option value="Medicine">Medicine</option>
+                                <option value="Law">Law</option>
+                                <option value="Management">Management</option>
+                                <option value="Other">Other</option>
+                            </select>
+                            <div class="error" id="departmentError"></div>
+                        </div>
+                        <button type="submit">Register</button>
+                    </form>
+                    <div class="toggle-form">
+                        Already have an account? <a onclick="showLogin()">Login here</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
@@ -196,3 +265,4 @@
 
 </body>
 </html>
+>>>>>>> f9255fcf6d40c79d4985bfc00b74c246b68d0ba6

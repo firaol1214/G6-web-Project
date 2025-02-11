@@ -170,7 +170,30 @@ img {
 
 
 /* menu styling */
+body{
+  background-color: #f4efe6;
+ }
 
+.table,th,td{
+  border:1px solid orange;
+  }
+table{
+  border-collapse: collapse;
+  width:100%;
+}
+th{
+  height:40px;
+  text-align:center;
+  vertical-align: bottom;
+  background-color: pink;
+  color: dark blue;
+}
+td{
+  padding:2%;
+  text-align:left;}
+tr:hover{ 
+   background-color: #d0e3ff;
+}
 
 
 
