@@ -70,7 +70,7 @@ img {
 .description-wrapper {
   font-size: 30px;
   font-weight: 600;
-  padding: 18px 0;
+  padding: 18px;
   color: yellow;
 }
 .description-wrapper p{
