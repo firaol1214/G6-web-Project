@@ -78,6 +78,7 @@ img {
  background-color: rgba(94, 140, 144, 0.7);
 }
 
+
 /* footer styling */
 .footer {
   background-color: black;
@@ -167,15 +168,22 @@ img {
 }
  
 
-
-
 /* menu styling */
-body{
-  background-color: #f4efe6;
- }
-
+.menu{
+  background-image: url("../Image/menu.jpg");
+  background-position: center;
+  background-size: cover;
+  color: #191716;
+  }
+  .menu-title{
+    text-align: center;
+    font-size: 2em;
+    padding: 65px;
+    color: black;
+    font-weight: 600;
+  }
 .table,th,td{
-  border:1px solid orange;
+  border:1.5px solid #2d1e17;
   }
 table{
   border-collapse: collapse;
@@ -185,14 +193,20 @@ th{
   height:40px;
   text-align:center;
   vertical-align: bottom;
-  background-color: pink;
+  background-color: #6b705c;
   color: dark blue;
 }
 td{
-  padding:2%;
-  text-align:left;}
+  padding:1.5%;
+  text-align:left;
+  font-weight: 600;
+}
 tr:hover{ 
-   background-color: #d0e3ff;
+  background-color: #b7b7a4;
+  color: #162a2c;
+}
+tr{	
+  background-color: rgba(94, 140, 144, 0.7);
 }
 
 
