@@ -210,12 +210,290 @@ tr{
 }
 
 
-
-
 /* About us */
 
+* {
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
 
+.header {
+  background-color: #002366;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.about-section {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+
+.about-section h2 {
+  color: #002366;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #ff6b6b;
+  padding-bottom: 0.5rem;
+}
+
+.services-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.service-card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card h3 {
+  color: #002366;
+  margin-bottom: 1rem;
+}
+
+.service-card a {
+  text-decoration: none;
+  color: #ff6b6b;
+  font-weight: bold;
+  display: block;
+  margin-top: 1rem;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-size: cover;
+  background: #f0f2f5;
+}
+h3{
+  background:linear-gradient(red ,#05cc58);
+  color: white;
+  padding: 10px 10;
+  text-align: center;   
+}
+
+.container {
+  display: flex;
+  width: 900px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.image-section{
+  width: 50%;
+  background:url('https://raw.githubusercontent.com/Teme93/G6-web-Project/a9457e249cba7c24ce0920a38e3ccaaebe7ae4c7/Image/login.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 0 0 15px;
+}
+
+.form-section {
+  width: 50%;
+  padding: 40px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.form-box {
+  display: none;
+}
+
+.form-box.active {
+  display: block;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+input, select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background: hsl(125, 61%, 63%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #3df006;
+}
+.toggle-form {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.toggle-form a {
+  color: hsl(226, 100%, 55%);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+  display: none;
+}
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.radio-group {
+  margin-top: 10px;
+}
+
+.radio-group input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.radio-group label {
+  font-size: 16px;
+  margin-right: 20px;
+}
 
 
 
 /* offers */
+* {
+  box-sizing: border-box;
+}
+
+.Offers-wrapper{
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 2rem;
+}
+
+.container :hover{
+  transform: translateY(-5px);
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #002366;
+}
+
+.menu-section {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.menu-item {
+  flex: 1;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.menu-item::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.menu-item h2 {
+  font-size: 2rem;
+  color: white;
+  position: relative;
+  z-index: 1;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.menu-item p {
+  font-size: 1.1rem;
+  color: white;
+  position: relative;
+  z-index: 1;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.breakfast {
+  background-image: url("");
+}
+
+.lunch {
+  background-image: url(""); 
+}
+
+.dinner {
+  background-image: url("");
+}
