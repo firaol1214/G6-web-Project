@@ -224,7 +224,7 @@ tr{
   text-align: center;
 }
 
-.container {
+.about-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
@@ -277,14 +277,15 @@ tr{
   display: block;
   margin-top: 1rem;
 }
-* {
+
+.sura{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Arial', sans-serif;
 }
 
-body {
+/*body {
  
   display: flex;
   justify-content: center;
@@ -292,15 +293,15 @@ body {
   min-height: 100vh;
   background-size: cover;
   background: #f0f2f5;
-}
-h3{
+}*/
+.form{
   background:linear-gradient(red ,#05cc58);
   color: white;
   padding: 10px 10;
   text-align: center;   
 }
 
-.container {
+.form-container {
   display: flex;
   width: 900px;
   background: #fff;
@@ -308,24 +309,24 @@ h3{
   box-shadow: 0 0 20px rgba(0,0,0,0.1);
 }
 
-.image-section{
+/* .image-section{
   width: 50%;
   background:url('https://raw.githubusercontent.com/Teme93/G6-web-Project/a9457e249cba7c24ce0920a38e3ccaaebe7ae4c7/Image/login.jpg');
   background-size: cover;
   background-position: center;
   border-radius: 15px 0 0 15px;
-}
+} */
 
 .form-section {
-  width: 50%;
+  /* width: 50%; */
   padding: 40px;
 }
 
-.form-container {
+/* .form-container {
   display: flex;
   flex-direction: column;
   gap: 20px;
-}
+} */
 .form-box {
   display: none;
 }
@@ -407,7 +408,6 @@ button:hover {
   font-size: 16px;
   margin-right: 20px;
 }
-
 
 
 /* offers */
