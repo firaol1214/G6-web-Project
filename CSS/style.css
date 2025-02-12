@@ -13,7 +13,7 @@ img {
   /* Header Style */
 .title{
   background-color: #002366;
-  color: white;
+  color: rgb(196, 16, 16);
   padding: 0.3rem;
   text-align: center;
 }
@@ -216,12 +216,12 @@ tr{
   font-family: 'Arial', sans-serif;
 }
 
-.header {
+/* .about-header {
   background-color: #002366;
   color: white;
   padding: 2rem;
   text-align: center;
-}
+} */
 
 .about-container {
   max-width: 1200px;
