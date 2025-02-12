@@ -280,10 +280,11 @@ tr{
 
 .sura{
   margin: 0;
+ 
   padding: 0;
   box-sizing: border-box;
   font-family: 'Arial', sans-serif;
-}
+
 
 /*body {
  
@@ -301,15 +302,15 @@ tr{
   text-align: center;   
 }
 
-.form-container {
-  display: flex;
+ /*.form-container { 
+  /*display: flex;
   width: 900px;
   background: #fff;
-  border-radius: 15px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  /* border-radius: 15px; */
+    
 }
 
-/* .image-section{
+/*.image-section{
   width: 50%;
   background:url('https://raw.githubusercontent.com/Teme93/G6-web-Project/a9457e249cba7c24ce0920a38e3ccaaebe7ae4c7/Image/login.jpg');
   background-size: cover;
@@ -329,6 +330,7 @@ tr{
 } */
 .form-box {
   display: none;
+  text-align: center;
 }
 
 .form-box.active {
