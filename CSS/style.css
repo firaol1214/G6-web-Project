@@ -29,8 +29,8 @@ img {
 }
 .internal-wrapper {
   width: 80%;
-  padding: 0 10px;
-  margin: 0 auto;
+  padding: 0.3rem;
+  margin: 0 auto ;
 }
 .header-wrapper .header-links-wrapper ul li a {
   text-decoration: none;
@@ -176,11 +176,11 @@ img {
   color: #191716;
   }
   .menu-title{
-    text-align: center;
-    font-size: 2em;
-    padding: 65px;
-    color: black;
-    font-weight: 600;
+  text-align: center;
+  font-size: 2em;
+  padding: 65px;
+  color: black;
+  font-weight: 600;
   }
 .table,th,td{
   border:1.5px solid #2d1e17;
