@@ -1,0 +1,102 @@
+/* login section */
+.form-section{
+    background-image: url("../Image/login.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 580px;
+  }
+  .form-section img{
+   width: 100%;
+  }
+  .form-container {
+    text-align:center; 
+    display: flex;
+    border-radius: 15px; 
+  }
+  .form-section {
+    padding: 15px 30%;
+  }
+  .form-box {
+    display: none;
+    padding: 10px 50px;
+    border-radius: 30px;
+  }
+  .form-box{
+    background-color: rgba(65, 170, 179, 0.7);
+  }
+  .form-box.active {
+    display: block;
+  }
+  .Register {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 12px;
+    background: hsl(125, 61%, 63%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #3df006;
+  }
+  .toggle-form {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .toggle-form a {
+    color: hsl(226, 100%, 55%);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    display: none;
+  }
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .radio-group {
+    margin-top: 10px;
+  }
+  
+  .radio-group input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .radio-group label {
+    font-size: 16px;
+    margin-right: 20px;
+  }
