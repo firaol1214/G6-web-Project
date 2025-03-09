@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# OS generated files
+.DS_Store
+
+# Build files
+build/
+# Editor files
+.vscode/
+.idea/
+
+# Logs
+*.log
+logs/
+
+# Debug files
+*.pid
+*.seed
+
+# Local development
+*.local
