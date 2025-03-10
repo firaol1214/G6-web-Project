@@ -29,7 +29,29 @@ if (isset($_POST['signup'])) {
         array_push($err, "Invalid email format.");
     }
 
-    
+    // Check if user already exists
+    $user_check_query = "SELECT * FROM users WHERE email = '$email' LIMIT 1";
+    $result = mysqli_query($conn, $user_check_query);
+    if (mysqli_num_rows($result) > 0) {
+        array_push($err, "Email already exists.");
+    }
+
+    // If no errors, register the user
+    if (count($err) === 0) {
+
+        // Insert user into the database using prepared statements
+        $query = "INSERT INTO users (firstname, lastname, sex, email, password) VALUES (?, ?, ?, ?, ?)";
+        $stmt = mysqli_prepare($conn, $query);
+        mysqli_stmt_bind_param($stmt, "sssss", $fname, $lname, $sex, $email, $pass1); // Fixed typo here
+
+        if (mysqli_stmt_execute($stmt)) {
+            $congra = "You are successfully registered! <a href='login.php' style='color: white;'>Login here</a>. ";
+        } else { 
+            array_push($err, "Registration failed. Please try again.");
+        }
+        mysqli_stmt_close($stmt);
+    }
+}
 
 
 
