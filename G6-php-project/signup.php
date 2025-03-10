@@ -96,8 +96,6 @@ if (isset($_POST['signup'])) {
         <label>Sex</label>
         <input type="radio" name="sex" id="" value="male" required>Male
         <input type="radio" name="sex" id="" value="male" required>Female
-        
-       
         <input type="submit" value="Signup" name="signup">
         Already a member? <a href="login.php" style="color: orange;">Login</a>
         </form>
